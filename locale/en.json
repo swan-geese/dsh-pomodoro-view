@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Pomodoro floating app",
+    "description": "A standalone Pomodoro instrument. Opens from a compact pill at the right of the Session header (it mirrors the live countdown while a phase runs): click it and a draggable floating window appears above every column, styled like a chronograph dial — serif numerals, 60 tick marks, a hairline ring. Focus counts down on the ring; a finished focus moves to a short break, and every fourth focus to a long break; the pill flags a boundary that passed while the window was closed. The header gear button slides open a settings drawer for the three durations and the long-break interval, automatic break/focus starts, and the end-of-phase chime; dots show the cycle, the footer shows today's totals. Drag the title strip to move the window; Escape closes it, Space toggles the timer. Timing runs in the browser and keeps counting across Sessions and Views; state, settings, and the window position stay in this browser's local storage, and nothing is sent to the model or over the network. Turning the plugin off removes the pill, the window, and the timer.",
+    "detail": "docs/DETAIL.md"
+  }
+}

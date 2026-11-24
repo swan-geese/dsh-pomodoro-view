@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="A floating Pomodoro window over a subtle workspace backdrop: a pill in the header row, a chronograph dial reading 15:00, mode rail, cycle dots, reset and skip around a round start button, and a gear and close button in the title strip.">
+  <defs>
+    <clipPath id="pomodoroDialClip">
+      <circle cx="238" cy="146" r="60"/>
+    </clipPath>
+  </defs>
+
+  <!-- workspace backdrop suggestion -->
+  <rect x="24" y="24" width="150" height="252" rx="10" fill="none" stroke="#8a93a6" stroke-width="1.4" opacity="0.45"/>
+  <rect x="44" y="44" width="110" height="8" rx="4" fill="#8a93a6" opacity="0.35"/>
+  <rect x="44" y="62" width="84" height="8" rx="4" fill="#8a93a6" opacity="0.28"/>
+  <rect x="44" y="80" width="98" height="8" rx="4" fill="#8a93a6" opacity="0.28"/>
+  <rect x="190" y="24" width="426" height="252" rx="10" fill="none" stroke="#8a93a6" stroke-width="1.4" opacity="0.3"/>
+  <rect x="212" y="44" width="120" height="10" rx="5" fill="#8a93a6" opacity="0.3"/>
+  <!-- header utility pill at the right of the title row -->
+  <rect x="536" y="38" width="60" height="22" rx="11" fill="none" stroke="#d9573f" stroke-width="1.6"/>
+  <circle cx="550" cy="49" r="5" fill="#d9573f"/>
+  <rect x="560" y="45" width="26" height="8" rx="4" fill="#d9573f" opacity="0.55"/>
+
+  <!-- floating window -->
+  <rect x="316" y="34" width="252" height="234" rx="20" fill="none" stroke="#8a93a6" stroke-width="1.6"/>
+  <!-- title strip: mark, name, gear, close -->
+  <circle cx="338" cy="56" r="6" fill="#d9573f"/>
+  <rect x="350" y="52" width="46" height="8" rx="4" fill="#4a5160"/>
+  <circle cx="524" cy="56" r="7" fill="none" stroke="#8a93a6" stroke-width="1.5"/>
+  <circle cx="546" cy="56" r="7" fill="none" stroke="#8a93a6" stroke-width="1.5"/>
+  <path d="M543 53l6 6M549 53l-6 6" stroke="#4a5160" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- chronograph dial -->
+  <circle cx="442" cy="140" r="60" fill="none" stroke="#8a93a6" stroke-width="7" opacity="0.35"/>
+  <path d="M442 80A60 60 0 1 1 388.6 172.5" fill="none" stroke="#d9573f" stroke-width="7" stroke-linecap="round"/>
+  <g clip-path="url(#pomodoroDialClip)" transform="translate(204 -6)">
+    <circle cx="238" cy="146" r="60" fill="none"/>
+  </g>
+  <g stroke="#8a93a6" stroke-width="1.1" opacity="0.6">
+    <path d="M442 88v5M442 192v-5M494 140h-5M390 140h5"/>
+    <path d="M480 102l-3.5 3.5M404 178l3.5-3.5M480 178l-3.5-3.5M404 102l3.5 3.5"/>
+  </g>
+  <!-- serif numerals suggestion -->
+  <rect x="425" y="128" width="34" height="12" rx="2" fill="#2b2e36"/>
+  <rect x="429" y="148" width="26" height="6" rx="3" fill="#d9573f" opacity="0.8"/>
+
+  <!-- mode rail + cycle dots -->
+  <rect x="386" y="204" width="34" height="14" rx="7" fill="#d9573f" opacity="0.18"/>
+  <rect x="392" y="209" width="22" height="4" rx="2" fill="#d9573f"/>
+  <rect x="426" y="204" width="34" height="14" rx="7" fill="none" stroke="#8a93a6" stroke-width="1.2"/>
+  <rect x="466" y="204" width="34" height="14" rx="7" fill="none" stroke="#8a93a6" stroke-width="1.2"/>
+  <circle cx="416" cy="228" r="2.6" fill="#d9573f"/>
+  <circle cx="428" cy="228" r="2.6" fill="#d9573f"/>
+  <circle cx="440" cy="228" r="2.6" fill="#8a93a6" opacity="0.45"/>
+  <circle cx="452" cy="228" r="2.6" fill="#8a93a6" opacity="0.45"/>
+
+  <!-- controls: reset, start, skip -->
+  <circle cx="398" cy="248" r="12" fill="none" stroke="#8a93a6" stroke-width="1.5"/>
+  <path d="M393 248a5 5 0 1 1 1.5 3.6M398 242v2.5h-2.2" fill="none" stroke="#4a5160" stroke-width="1.6" stroke-linecap="round"/>
+  <circle cx="442" cy="248" r="18" fill="#d9573f"/>
+  <path d="M438 241l8 7-8 7Z" fill="#ffffff"/>
+  <circle cx="486" cy="248" r="12" fill="none" stroke="#8a93a6" stroke-width="1.5"/>
+  <path d="M481 243l5 5-5 5ZM489 243v10" fill="none" stroke="#4a5160" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

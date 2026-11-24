@@ -1,0 +1,3 @@
+- insert:
+    - id: pomodoro-view
+      name: 'dsh-pomodoro-view'

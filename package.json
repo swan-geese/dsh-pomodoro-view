@@ -1,0 +1,53 @@
+{
+  "name": "dsh-pomodoro-view",
+  "version": "1.2.0",
+  "description": "Pomodoro floating app for DeepSeek Harness: header pill plus a draggable chronograph-style timer window",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "license": "MIT",
+  "author": "swan-geese",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "pomodoro",
+    "timer",
+    "focus",
+    "floating-panel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swan-geese/dsh-pomodoro-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/swan-geese/dsh-pomodoro-view/issues"
+  },
+  "homepage": "https://github.com/swan-geese/dsh-pomodoro-view#readme"
+}

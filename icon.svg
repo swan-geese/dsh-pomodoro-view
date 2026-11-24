@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" role="img" aria-label="Pomodoro">
+  <circle cx="18" cy="20.6" r="12.3" fill="#cf5b48"/>
+  <path d="M18 11.6C15.4 11.6 13.4 10.7 12.2 9.3C14.2 7.9 16.4 8.2 18 9.6C19.6 8.2 21.8 7.9 23.8 9.3C22.6 10.7 20.6 11.6 18 11.6Z" fill="#4f8f5c"/>
+  <path d="M18 9.6C18 7.8 18.5 6.3 19.4 5.2" stroke="#4f8f5c" stroke-width="1.7" stroke-linecap="round" fill="none"/>
+</svg>
